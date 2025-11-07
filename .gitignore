@@ -1,0 +1,3 @@
+.venv
+DRONE_OUTPUT.env
+HARNESS_OUTPUT_SECRET.env
