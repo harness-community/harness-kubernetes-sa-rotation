@@ -6,6 +6,8 @@ a new service account token will be created for the target service account in it
 
 if configured, existing k8s secrets will be deleted after the new service account token is stored in harness
 
+<img width="1615" height="1156" alt="image" src="https://github.com/user-attachments/assets/0d59b045-6c97-4b93-a06f-b362d71a8941" />
+
 ## usage
 
 - PLUGIN_K8S_NAMESPACE: k8s namespace (optional: default `harness-delegate-ng`)
