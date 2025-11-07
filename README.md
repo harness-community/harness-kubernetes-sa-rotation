@@ -47,3 +47,5 @@ you can then run the plugin directly in harness using a container step in the ta
         namespace: harness-delegate-ng
         serviceAccountName: sa-token-rotator
 ```
+
+you can use the cluster you are rotating the sa in as the stage infrastructure to run the plugin
