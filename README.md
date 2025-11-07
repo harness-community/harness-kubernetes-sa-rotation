@@ -40,6 +40,8 @@ you can then run the plugin directly in harness using a container step in the ta
               HARNESS_PLATFORM_API_KEY: <+secrets.getValue("account.account_admin")>
               HARNESS_ORG: <+org.identifier>
               HARNESS_PROJECT: <+project.identifier>
+              NAMESPACE: harness-delegate-ng
+              SERVICE_ACCOUNT_NAME: harness-delegate-ng
               SECRET_TAGS: "{\"source\":\"plugin\"}"
               DELETE_K8S_SECRETS: "true"
     stepGroupInfra:
